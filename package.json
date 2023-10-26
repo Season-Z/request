@@ -1,7 +1,6 @@
 {
-  "name": "@season/request",
-  "private": true,
-  "version": "0.0.2",
+  "name": "@zhouxishun/request",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/index.umd.cjs",
   "types": "dist/index.d.ts",
