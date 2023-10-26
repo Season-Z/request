@@ -11,7 +11,7 @@
     "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "changeset": "exec changeset",
-    "version": "exec changeset version"
+    "version": "exec changeset version  && pnpm install"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.2",
