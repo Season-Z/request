@@ -1,7 +1,7 @@
 {
   "name": "@season/request",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/index.umd.cjs",
   "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "changeset": "exec changeset",
+    "version": "exec changeset version"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.2",
